@@ -5,11 +5,11 @@ echo $SCRIPT_DIR
 
 cd $SCRIPT_DIR/unisocket-clients
 echo $SCRIPT_DIR/unisocket-clients
-rm out.txt
+rm -f out-client.txt
 
 cd $SCRIPT_DIR/test-latency-before
 echo $SCRIPT_DIR/test-latency-before
-rm out.txt
+rm -f out-test.txt
 
 #
 cd $SCRIPT_DIR/unisocket-clients
