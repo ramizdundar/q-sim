@@ -14,7 +14,7 @@ rm out.txt
 #
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-client.txt 2>&1
-./run 0 1000 20m >> out-client.txt 2>&1 &
+./run 0 3000 20m >> out-client.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-latency-before
 provisioner --kill >> out-test.txt 2>&1
