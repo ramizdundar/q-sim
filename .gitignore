@@ -9,3 +9,4 @@ test-throughput-jozsi/*/
 test-throughput-josef/*/
 
 unisocket-clients/*/
+unisocket-clients/out.txt
