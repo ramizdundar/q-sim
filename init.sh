@@ -18,6 +18,6 @@ provisioner --kill >> out-client.txt 2>&1
  
 cd $SCRIPT_DIR/test-latency-before
 provisioner --kill >> out-test.txt 2>&1
-./run 3 16 20m >> out-test.txt 2>&1 &
+./run 3 8 20m >> out-test.txt 2>&1 &
 
 wait
