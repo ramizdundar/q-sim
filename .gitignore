@@ -7,3 +7,5 @@ test-latency-josef/*/
 test-throughput-before/*/
 test-throughput-jozsi/*/
 test-throughput-josef/*/
+
+3000-unisocket-clients/*/
