@@ -24,6 +24,7 @@ clientJvmArgs="${clientJvmArgs} ${gcArgs}"
 
 coordinator --members ${members} \
             --clients ${clients} \
+            --dedicatedMemberMachines ${members} \
             --duration ${duration} \
             --memberArgs "${memberJvmArgs}" \
             --clientArgs "${clientJvmArgs}" \
