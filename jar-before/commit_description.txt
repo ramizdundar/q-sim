@@ -1,0 +1,7 @@
+commit 624e4433c83ad9a79a2fa828fd3c13313d3822d7 (HEAD)
+Author: Jiří Holuša <jiri@hazelcast.com>
+Date:   Mon Jan 10 22:10:51 2022 +0100
+
+    Provide more helpful error message when user code deployment is disabled (#20254)
+
+link: https://github.com/hazelcast/hazelcast/commit/624e4433c83ad9a79a2fa828fd3c13313d3822d7

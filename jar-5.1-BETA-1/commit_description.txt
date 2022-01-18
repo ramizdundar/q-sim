@@ -1,0 +1,7 @@
+commit 4a73cc5f9b4ebef09c5a8e0067da464b5ef629be (HEAD)
+Author: Serdar Ozmen <serdar@hazelcast.com>
+Date:   Thu Jan 13 17:57:12 2022 +0300
+
+    Update release_notes.txt
+
+Link: https://github.com/hazelcast/hazelcast/commit/4a73cc5f9b4ebef09c5a8e0067da464b5ef629be

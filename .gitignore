@@ -1,23 +1,24 @@
 .DS_Store
+.idea
 
 # Ignore subdirectories
 test-latency-before/*/
-test-latency-jozsi/*/
-test-latency-josef/*/
+test-latency-5.1-BETA-1/*/
+test-latency-with-hostnames-5.1-BETA-1/*/
 
 test-throughput-before/*/
-test-throughput-jozsi/*/
-test-throughput-josef/*/
+test-throughput-5.1-BETA-1/*/
+test-throughput-with-hostnames-5.1-BETA-1/*/
 
 unisocket-clients/*/
 
 # Ignore shell output files
 test-latency-before/out-test.txt
-test-latency-jozsi/out-test.txt
-test-latency-josef/out-test.txt
+test-latency-5.1-BETA-1/out-test.txt
+test-latency-with-hostnames-5.1-BETA-1/out-test.txt
 
 test-throughput-before/out-test.txt
-test-throughput-jozsi/out-test.txt
-test-throughput-josef/out-test.txt
+test-throughput-5.1-BETA-1/out-test.txt
+test-throughput-with-hostnames-5.1-BETA-1/out-test.txt
 
 unisocket-clients/out-clients.txt
