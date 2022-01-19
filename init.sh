@@ -35,7 +35,7 @@ echo Finished cleanup
 echo Running the latency test with the commit before the hostname fix
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-latency-before
 provisioner --kill >> out-test.txt 2>&1
@@ -48,7 +48,7 @@ echo Finished the latency test with the commit before the hostname fix
 echo Running the latency test with 5.1-BETA-1
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-latency-5.1-BETA-1
 provisioner --kill >> out-test.txt 2>&1
@@ -61,7 +61,7 @@ echo Finished the latency test with 5.1-BETA-1
 echo Running the latency test with hostnames on 5.1-BETA-1
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-latency-with-hostnames-5.1-BETA-1
 provisioner --kill >> out-test.txt 2>&1
@@ -74,7 +74,7 @@ echo Finished the latency test with hostnames on 5.1-BETA-1
 echo Running the throughput test with the commit before the hostname fix
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-throughput-before
 provisioner --kill >> out-test.txt 2>&1
@@ -88,7 +88,7 @@ echo Finished the throughput test with the commit before the hostname fix
 echo Running the throughput test with 5.1-BETA-1
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-throughput-5.1-BETA-1
 provisioner --kill >> out-test.txt 2>&1
@@ -102,7 +102,7 @@ echo Finished the throughput test with 5.1-BETA-1
 echo Running the throughput test with hostnames on 5.1-BETA-1
 cd $SCRIPT_DIR/unisocket-clients
 provisioner --kill >> out-clients.txt 2>&1
-./run 0 3000 15m >> out-clients.txt 2>&1 &
+./run 0 1500 15m >> out-clients.txt 2>&1 &
  
 cd $SCRIPT_DIR/test-throughput-with-hostnames-5.1-BETA-1
 provisioner --kill >> out-test.txt 2>&1

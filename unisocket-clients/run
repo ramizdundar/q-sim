@@ -6,7 +6,7 @@ duration=${3:-1m}
 testsuite=${4:-test}
 
 memberHeapSZ=1G
-clientHeapSZ=512M
+clientHeapSZ=128M
 
 partitions=271
 monitorSec=30
